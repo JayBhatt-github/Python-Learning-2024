@@ -1,3 +1,5 @@
+# Arithmetic Operators
+
 # Simple python calculator for operation of two variables
 
 a = 10
