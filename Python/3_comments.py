@@ -1,7 +1,5 @@
 # python comments and escape sequences
 
-import pandas
-
 
 # single line comment
 # print ("hello") 
