@@ -17,5 +17,5 @@ match x:
         print(x, "is not 90")
     case _ if x!=80:
         print(x, "is not 80")
-    case _:                         # this is default case
+    case _:                          # this is default case
         print(x)
