@@ -5,6 +5,27 @@ current_directory = os.getcwd()
 print("Current working directory:", current_directory)
 
 
+
+# Open a file
+# file = open("example.txt", "w")     # "w" --> write mode | "r" --> read mode
+
+
+#write file
+# file.write("Hello, this is a demonstration of writing to a file.")
+# print("File opened and written to successfully")
+
+# Close the file
+# file.close()
+# print("File closed successfully")
+
+
+# Create a new directory
+# new_directory = "new_directory"
+# os.mkdir(new_directory)
+# print("Directory created successfully")
+
+
+
 # Create a new directory
 # new_directory = "new_directory"
 # os.mkdir(new_directory)
@@ -43,3 +64,6 @@ print(os.listdir())
 #     os.mkdir(folder_name)
 #     print(f"Folder {folder_name} created successfully")
 
+
+
+# more at (https://docs.python.org/3/library/os.html)
