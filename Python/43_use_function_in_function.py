@@ -1,3 +1,6 @@
+# use function in other functions in python
+
+
 # Define a function to add two numbers
 def add(x, y):
     return x + y
@@ -12,7 +15,6 @@ def add_and_square(a, b):
 # Call the add_and_square function
 result = add_and_square(3, 5)
 print("The result is:", result)
-
 
 
 # Other example
