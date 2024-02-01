@@ -2,7 +2,7 @@
 
 class MyClass:
     # This is a static method. It does not have access to the class or instance.
-    @staticmethod
+    # @staticmethod
     def staticMethod():
         print("This is a static method. It does not have access to the class or instance.")
 
