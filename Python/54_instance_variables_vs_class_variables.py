@@ -1,4 +1,4 @@
-# This is an example of instance variable vs class variable.
+# instance variable vs class variable in python.
 
 class Employee:
   # Class variables are shared among all instances of a class.

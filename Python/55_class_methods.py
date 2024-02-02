@@ -1,4 +1,4 @@
-# This is an example of class method in Python.
+# class method in Python.
 
 class Employee:
   company = "Apple"
