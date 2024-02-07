@@ -1,10 +1,9 @@
 import requests
-import pprint
 
 key = 'bab16070e3b1484ebb8108305b9ccfdb'
 def get_news(api_key, country_code='us'):
-    cat = input("catagory please:")
-    url = f'https://newsapi.org/v2/top-headlines?country=in&category={cat}&apiKey={key}'
+    query = input("search news please:")
+    url = f'https://newsapi.org/v2/everything?q={query}&from=2024-01-07&sortBy=publishedAt&apiKey={key}'
     response = requests.get(url)
     news = response.json()
     return news
