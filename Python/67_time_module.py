@@ -1,3 +1,5 @@
+# Time Module in Python
+
 import time
 
 # Get the current time in seconds since the epoch
