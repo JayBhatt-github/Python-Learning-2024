@@ -18,9 +18,9 @@ b.name = "Chris"
 b.occupation = "Product Designer"
 b.age = "26"
 
-b.name = "Anderson"
-b.occupation = "Accountant"
-b.age = "34"
+c.name = "Anderson"
+c.occupation = "Accountant"
+c.age = "34"
 
 a.desc()
 b.desc()
